@@ -31,9 +31,7 @@ Drop images into `assets/` with these exact names and they appear automatically 
 
 ## Publish (GitHub Pages)
 
-When your GitHub account is ready:
+Live at **https://joxefstudios.se**, served by GitHub Pages from `main` (root) of [OwenJoxef/joxefstudio](https://github.com/OwenJoxef/joxefstudio). Push to `main` to update the site.
 
-1. Create a repo (e.g. `joxefstudio`)
-2. Push this project
-3. Enable **Settings → Pages → Deploy from branch** (`main` / root)
-4. Point **joxefstudio.se** DNS to GitHub Pages when the domain is registered
+- `CNAME` holds the custom domain; keep it in the repo.
+- DNS is managed in Loopia (LoopiaDNS): `@` has the four GitHub Pages A records (185.199.108–111.153) and four AAAA records (2606:50c0:8000–8003::153); `www` is a CNAME to `owenjoxef.github.io.`
