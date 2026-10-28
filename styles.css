@@ -551,10 +551,15 @@ p {
   gap: 0;
 }
 
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-2 > *,
 .grid-3 > * {
   border: 1px solid var(--line);
   margin: 0 -1px -1px 0;
@@ -759,6 +764,26 @@ p {
   font-size: 16px;
   font-weight: 500;
   color: var(--muted-on-dark);
+}
+
+.rates-single {
+  align-content: center;
+}
+
+.rates-single .rate {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  padding: 48px;
+}
+
+.rates-single .rate-value {
+  font-size: clamp(56px, 6vw, 80px);
+}
+
+.rates-single .rate-value small {
+  margin-left: 6px;
+  font-size: 18px;
+  letter-spacing: 0;
 }
 
 .rate-note {
@@ -1256,6 +1281,7 @@ p {
     gap: 48px;
   }
 
+  .grid-2,
   .grid-3 {
     grid-template-columns: 1fr;
   }

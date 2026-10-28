@@ -1,6 +1,6 @@
 # Joxef Studio
 
-Website for **Owen Joxef** — DJ gigs, studio practice, and beginner lessons in Södermalm / Skanstull, Stockholm.
+Website for **Owen Joxef** — DJ gigs, studio practice, and DJ lessons for every level in Södermalm / Skanstull, Stockholm.
 
 ## Local preview
 
