@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Joxef Studio">
+  <defs>
+    <clipPath id="above"><rect width="48" height="23.4" /></clipPath>
+  </defs>
+  <g fill="none" stroke="#e2a65a" stroke-linecap="round">
+    <g clip-path="url(#above)">
+      <path d="M2.7 23.4A21.3 21.3 0 0 1 45.3 23.4" stroke-width="1.6" stroke-linecap="butt" />
+      <path d="M24 5.9A17.5 17.5 0 0 1 41.5 23.4" stroke-width="2.1" />
+      <path d="M24 9.65A13.75 13.75 0 0 1 37.75 23.4" stroke-width="2.1" />
+      <path d="M18.4 23.4A5.6 5.6 0 0 1 29.6 23.4" stroke-width="2.2" stroke-linecap="butt" />
+      <path d="M21.6 23.4A2.4 2.4 0 0 1 26.4 23.4" stroke-width="2.2" stroke-linecap="butt" />
+    </g>
+    <g stroke-width="1.9">
+      <path d="M2.7 26c2.97 0 5.28 3 8.25 3s5.28-3 8.25-3 5.28 3 8.25 3 5.28-3 8.25-3 5.28 3 8.25 3" />
+      <path d="M3.7 31.85c2.84 0 5.06 3 7.9 3s5.06-3 7.9-3 5.06 3 7.9 3 5.06-3 7.9-3 5.06 3 7.9 3" />
+      <path d="M9.2 40.7c2.59 0 4.61-3 7.2-3s4.61 3 7.2 3 4.61-3 7.2-3 4.61 3 7.2 3" />
+      <path d="M16.8 42.2c2.59 0 4.61 3 7.2 3s4.61-3 7.2-3" />
+    </g>
+  </g>
+</svg>
