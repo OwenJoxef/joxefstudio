@@ -10,13 +10,8 @@
     />
     <meta name="theme-color" content="#0a1628" />
     <link rel="icon" href="assets/favicon.svg?v=4" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=Cardo&family=Source+Serif+4:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css?v=5" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -623,7 +618,10 @@
             </label>
 
             <div class="form-foot">
-              <p>All communication, including lessons, is in English.</p>
+              <p>
+                I only use your details to reply to your enquiry. See the
+                <a href="privacy.html">privacy policy</a>.
+              </p>
               <button class="btn btn-light" type="submit">
                 Send enquiry <span class="arrow" aria-hidden="true">→</span>
               </button>
@@ -652,6 +650,7 @@
         </nav>
         <div class="footer-meta">
           <a href="mailto:Dondjbookings@gmail.com">Dondjbookings@gmail.com</a>
+          <a href="privacy.html">Privacy policy</a>
           <span>Södermalm, Stockholm</span>
           <span>© <span data-year>2026</span> Joxef Studio</span>
         </div>
