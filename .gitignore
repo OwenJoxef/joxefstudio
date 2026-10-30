@@ -1,1 +1,6 @@
 .DS_Store
+
+# Private working material, never published to the public site
+course/
+social/
+.cursor/
