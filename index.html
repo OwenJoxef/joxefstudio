@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#0a1628" />
     <link rel="icon" href="assets/favicon.svg?v=4" type="image/svg+xml" />
     <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=8" />
+    <link rel="stylesheet" href="styles.css?v=9" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -203,9 +203,23 @@
               <h3>DJ tuition</h3>
               <p>
                 Lessons for every level, one-to-one or with a friend — from your very first
-                mix to sharpening your sets. Beginners always welcome.
+                mix to sharpening your sets. Beginners always welcome, and your first lesson
+                is 500&nbsp;kr.
               </p>
               <span class="card-more">Lessons <span aria-hidden="true">→</span></span>
+            </a>
+          </div>
+
+          <div class="community reveal">
+            <div>
+              <h3>Supporting the community</h3>
+              <p>
+                I want to give back to the community. Students, charities and good causes are
+                welcome to get in touch about reduced rates on sets, lessons and studio time.
+              </p>
+            </div>
+            <a class="card-more" href="#contact" data-service="Community rate">
+              Ask about a discount <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
@@ -290,7 +304,7 @@
             <div class="rates rates-single reveal">
               <div class="rate">
                 <span class="rate-label">Studio time</span>
-                <span class="rate-value">350 <small>kr / hour</small></span>
+                <span class="rate-value">300 <small>kr / hour</small></span>
               </div>
             </div>
 
@@ -338,7 +352,20 @@
             </p>
           </div>
 
-          <div class="grid grid-2 pricing">
+          <div class="grid grid-3 pricing">
+            <article class="plan reveal">
+              <span class="plan-badge">Introductory offer</span>
+              <h3>First lesson</h3>
+              <p class="plan-sub">60 minutes · new students</p>
+              <div class="plan-prices">
+                <div><span>One hour</span><strong>500 kr</strong></div>
+              </div>
+              <p class="plan-text">
+                Try a full hour in the studio at an introductory price, then decide how you want
+                to continue.
+              </p>
+            </article>
+
             <article class="plan reveal">
               <h3>Single lesson</h3>
               <p class="plan-sub">Pay as you go</p>
@@ -513,6 +540,14 @@
                 required.
               </p>
             </details>
+            <details>
+              <summary>Do you offer discounts?</summary>
+              <p>
+                Yes. I want to support the community, so students, charities and good causes can
+                get in touch about reduced rates on sets, lessons and studio time. Just mention it
+                in your enquiry.
+              </p>
+            </details>
           </div>
         </div>
       </section>
@@ -574,9 +609,11 @@
                   <option value="" disabled selected>Select a service</option>
                   <option value="DJ booking">DJ booking</option>
                   <option value="Studio practice">Studio practice</option>
+                  <option value="First lesson">First lesson — 500 kr offer</option>
                   <option value="Lessons">Lessons — single</option>
                   <option value="Foundation course">Foundation course (5 lessons)</option>
                   <option value="Gift">Gift — Foundation course</option>
+                  <option value="Community rate">Student, charity or community rate</option>
                   <option value="Other">Other</option>
                 </select>
               </label>
